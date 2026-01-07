@@ -1,0 +1,157 @@
+version: '1.0.0'
+name: 'MDXEditor Architecture Library'
+
+nodeComponents:
+  # Core Components
+  mdx-editor:
+    description: 'Main React component entry point'
+    icon: '📝'
+    color: '#3b82f6'
+
+  realm-with-plugins:
+    description: 'Plugin ecosystem and state management'
+    icon: '🔧'
+    color: '#8b5cf6'
+
+  lexical-provider:
+    description: 'Lexical context provider'
+    icon: '📄'
+    color: '#10b981'
+
+  rich-text-editor:
+    description: 'Main editable content area'
+    icon: '✏️'
+    color: '#f59e0b'
+
+  # State Management
+  gurx-realm:
+    description: 'Reactive state management system'
+    icon: '⚡'
+    color: '#ef4444'
+
+  state-cell:
+    description: 'Reactive state cell (markdown$, rootEditor$, etc.)'
+    icon: '📊'
+    color: '#f97316'
+
+  signal:
+    description: 'Action signal (insertMarkdown$, setMarkdown$, etc.)'
+    icon: '📡'
+    color: '#eab308'
+
+  # Plugin System
+  plugin:
+    description: 'MDXEditor plugin with lifecycle methods'
+    icon: '🔌'
+    color: '#06b6d4'
+
+  realm-plugin:
+    description: 'Plugin interface with init/postInit/update'
+    icon: '🧩'
+    color: '#0ea5e9'
+
+  # Content Plugins
+  content-plugin:
+    description: 'Plugin for content types (headings, lists, tables, etc.)'
+    icon: '📋'
+    color: '#22c55e'
+
+  ui-plugin:
+    description: 'Plugin for UI components (toolbar, dialogs, search)'
+    icon: '🎨'
+    color: '#a855f7'
+
+  # Processing
+  markdown-parser:
+    description: 'Micromark markdown parser'
+    icon: '📖'
+    color: '#6366f1'
+
+  mdast-ast:
+    description: 'Markdown abstract syntax tree'
+    icon: '🌳'
+    color: '#64748b'
+
+  lexical-node:
+    description: 'Lexical editor node'
+    icon: '🔤'
+    color: '#475569'
+
+  import-visitor:
+    description: 'MDAST to Lexical converter'
+    icon: '⬇️'
+    color: '#0891b2'
+
+  export-visitor:
+    description: 'Lexical to MDAST converter'
+    icon: '⬆️'
+    color: '#0d9488'
+
+  # External Dependencies
+  react:
+    description: 'React component framework'
+    icon: '⚛️'
+    color: '#61dafb'
+
+  lexical:
+    description: "Facebook's text editor framework"
+    icon: '📝'
+    color: '#0078d4'
+
+  codemirror:
+    description: 'Code editor for nested contexts'
+    icon: '💻'
+    color: '#087cfa'
+
+edgeComponents:
+  # Data Flow
+  data-flow:
+    description: 'Data flows between components'
+    style: 'solid'
+    color: '#3b82f6'
+    directed: true
+
+  state-flow:
+    description: 'Reactive state changes'
+    style: 'dashed'
+    color: '#ef4444'
+    directed: true
+
+  # Dependencies
+  depends-on:
+    description: 'Component dependency'
+    style: 'solid'
+    color: '#6b7280'
+    directed: true
+
+  # Communication
+  publishes-to:
+    description: 'Publishes signals/events to'
+    style: 'dotted'
+    color: '#10b981'
+    directed: true
+
+  subscribes-to:
+    description: 'Subscribes to signals/events from'
+    style: 'dotted'
+    color: '#f59e0b'
+    directed: false
+
+  # Relationships
+  contains:
+    description: 'Parent-child containment'
+    style: 'solid'
+    color: '#8b5cf6'
+    directed: false
+
+  implements:
+    description: 'Interface implementation'
+    style: 'double'
+    color: '#06b6d4'
+    directed: true
+
+  registers:
+    description: 'Plugin registration'
+    style: 'solid'
+    color: '#22c55e'
+    directed: true

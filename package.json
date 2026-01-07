@@ -24,7 +24,8 @@
     "test:once": "NODE_ENV=development vitest --run",
     "semantic-release": "semantic-release",
     "image-upload-backend": "node ./src/examples/file-backend.js",
-    "export-icons": "node ./scripts/export-figma-icons.mjs"
+    "export-icons": "node ./scripts/export-figma-icons.mjs",
+    "prepare": "husky"
   },
   "files": [
     "dist"
@@ -136,6 +137,7 @@
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "express": "^4.18.2",
+    "husky": "^9.1.7",
     "i18next": "^23.10.0",
     "jsdom": "^23.0.1",
     "mermaid": "^10.6.1",

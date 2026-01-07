@@ -1,0 +1,507 @@
+{
+  "pv": {
+    "name": "MDXEditor Architecture",
+    "version": "1.0.0"
+  },
+  "nodes": [
+    {
+      "id": "mdx-editor",
+      "type": "text",
+      "x": 400,
+      "y": 50,
+      "width": 120,
+      "height": 60,
+      "color": "#3b82f6",
+      "text": "MDXEditor",
+      "pv": {
+        "nodeType": "mdx-editor",
+        "name": "MDXEditor"
+      }
+    },
+    {
+      "id": "realm-with-plugins",
+      "type": "text",
+      "x": 400,
+      "y": 150,
+      "width": 140,
+      "height": 60,
+      "color": "#8b5cf6",
+      "text": "RealmWithPlugins",
+      "pv": {
+        "nodeType": "realm-with-plugins",
+        "name": "RealmWithPlugins"
+      }
+    },
+    {
+      "id": "gurx-realm",
+      "type": "text",
+      "x": 200,
+      "y": 250,
+      "width": 100,
+      "height": 60,
+      "color": "#ef4444",
+      "text": "Gurx Realm",
+      "pv": {
+        "nodeType": "gurx-realm",
+        "name": "Gurx Realm"
+      }
+    },
+    {
+      "id": "lexical-provider",
+      "type": "text",
+      "x": 600,
+      "y": 250,
+      "width": 120,
+      "height": 60,
+      "color": "#10b981",
+      "text": "LexicalProvider",
+      "pv": {
+        "nodeType": "lexical-provider",
+        "name": "LexicalProvider"
+      }
+    },
+    {
+      "id": "rich-text-editor",
+      "type": "text",
+      "x": 600,
+      "y": 350,
+      "width": 120,
+      "height": 60,
+      "color": "#f59e0b",
+      "text": "RichTextEditor",
+      "pv": {
+        "nodeType": "rich-text-editor",
+        "name": "RichTextEditor"
+      }
+    },
+    {
+      "id": "plugin-system",
+      "type": "text",
+      "x": 200,
+      "y": 350,
+      "width": 100,
+      "height": 60,
+      "color": "#0ea5e9",
+      "text": "Plugin System",
+      "pv": {
+        "nodeType": "realm-plugin",
+        "name": "Plugin System"
+      }
+    },
+    {
+      "id": "core-plugin",
+      "type": "text",
+      "x": 50,
+      "y": 450,
+      "width": 80,
+      "height": 60,
+      "color": "#06b6d4",
+      "text": "Core Plugin",
+      "pv": {
+        "nodeType": "plugin",
+        "name": "Core Plugin"
+      }
+    },
+    {
+      "id": "content-plugins",
+      "type": "text",
+      "x": 150,
+      "y": 450,
+      "width": 100,
+      "height": 60,
+      "color": "#22c55e",
+      "text": "Content Plugins",
+      "pv": {
+        "nodeType": "content-plugin",
+        "name": "Content Plugins"
+      }
+    },
+    {
+      "id": "ui-plugins",
+      "type": "text",
+      "x": 270,
+      "y": 450,
+      "width": 80,
+      "height": 60,
+      "color": "#a855f7",
+      "text": "UI Plugins",
+      "pv": {
+        "nodeType": "ui-plugin",
+        "name": "UI Plugins"
+      }
+    },
+    {
+      "id": "markdown-cell",
+      "type": "text",
+      "x": 50,
+      "y": 250,
+      "width": 100,
+      "height": 60,
+      "color": "#f97316",
+      "text": "markdown$",
+      "pv": {
+        "nodeType": "state-cell",
+        "name": "markdown$"
+      }
+    },
+    {
+      "id": "root-editor-cell",
+      "type": "text",
+      "x": 50,
+      "y": 350,
+      "width": 100,
+      "height": 60,
+      "color": "#f97316",
+      "text": "rootEditor$",
+      "pv": {
+        "nodeType": "state-cell",
+        "name": "rootEditor$"
+      }
+    },
+    {
+      "id": "markdown-parser",
+      "type": "text",
+      "x": 800,
+      "y": 150,
+      "width": 120,
+      "height": 60,
+      "color": "#6366f1",
+      "text": "Markdown Parser",
+      "pv": {
+        "nodeType": "markdown-parser",
+        "name": "Markdown Parser"
+      }
+    },
+    {
+      "id": "mdast-ast",
+      "type": "text",
+      "x": 800,
+      "y": 250,
+      "width": 80,
+      "height": 60,
+      "color": "#64748b",
+      "text": "MDAST",
+      "pv": {
+        "nodeType": "mdast-ast",
+        "name": "MDAST"
+      }
+    },
+    {
+      "id": "import-visitors",
+      "type": "text",
+      "x": 700,
+      "y": 350,
+      "width": 100,
+      "height": 60,
+      "color": "#0891b2",
+      "text": "Import Visitors",
+      "pv": {
+        "nodeType": "import-visitor",
+        "name": "Import Visitors"
+      }
+    },
+    {
+      "id": "export-visitors",
+      "type": "text",
+      "x": 900,
+      "y": 350,
+      "width": 100,
+      "height": 60,
+      "color": "#0d9488",
+      "text": "Export Visitors",
+      "pv": {
+        "nodeType": "export-visitor",
+        "name": "Export Visitors"
+      }
+    },
+    {
+      "id": "lexical-nodes",
+      "type": "text",
+      "x": 800,
+      "y": 450,
+      "width": 100,
+      "height": 60,
+      "color": "#475569",
+      "text": "Lexical Nodes",
+      "pv": {
+        "nodeType": "lexical-node",
+        "name": "Lexical Nodes"
+      }
+    },
+    {
+      "id": "react",
+      "type": "text",
+      "x": 100,
+      "y": 50,
+      "width": 80,
+      "height": 60,
+      "color": "#61dafb",
+      "text": "React",
+      "pv": {
+        "nodeType": "react",
+        "name": "React"
+      }
+    },
+    {
+      "id": "lexical",
+      "type": "text",
+      "x": 950,
+      "y": 250,
+      "width": 80,
+      "height": 60,
+      "color": "#0078d4",
+      "text": "Lexical",
+      "pv": {
+        "nodeType": "lexical",
+        "name": "Lexical"
+      }
+    },
+    {
+      "id": "codemirror",
+      "type": "text",
+      "x": 750,
+      "y": 450,
+      "width": 100,
+      "height": 60,
+      "color": "#087cfa",
+      "text": "CodeMirror",
+      "pv": {
+        "nodeType": "codemirror",
+        "name": "CodeMirror"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "react-to-mdx",
+      "fromNode": "react",
+      "toNode": "mdx-editor",
+      "fromSide": "right",
+      "toSide": "left",
+      "color": "#6b7280",
+      "pv": {
+        "edgeType": "depends-on"
+      }
+    },
+    {
+      "id": "mdx-to-realm",
+      "fromNode": "mdx-editor",
+      "toNode": "realm-with-plugins",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "color": "#8b5cf6",
+      "pv": {
+        "edgeType": "contains"
+      }
+    },
+    {
+      "id": "realm-to-gurx",
+      "fromNode": "realm-with-plugins",
+      "toNode": "gurx-realm",
+      "fromSide": "left",
+      "toSide": "right",
+      "color": "#8b5cf6",
+      "pv": {
+        "edgeType": "contains"
+      }
+    },
+    {
+      "id": "realm-to-lexical",
+      "fromNode": "realm-with-plugins",
+      "toNode": "lexical-provider",
+      "fromSide": "right",
+      "toSide": "left",
+      "color": "#8b5cf6",
+      "pv": {
+        "edgeType": "contains"
+      }
+    },
+    {
+      "id": "lexical-to-editor",
+      "fromNode": "lexical-provider",
+      "toNode": "rich-text-editor",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "color": "#8b5cf6",
+      "pv": {
+        "edgeType": "contains"
+      }
+    },
+    {
+      "id": "gurx-to-plugins",
+      "fromNode": "gurx-realm",
+      "toNode": "plugin-system",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "color": "#8b5cf6",
+      "pv": {
+        "edgeType": "contains"
+      }
+    },
+    {
+      "id": "plugins-to-core",
+      "fromNode": "plugin-system",
+      "toNode": "core-plugin",
+      "fromSide": "left",
+      "toSide": "right",
+      "color": "#8b5cf6",
+      "pv": {
+        "edgeType": "contains"
+      }
+    },
+    {
+      "id": "plugins-to-content",
+      "fromNode": "plugin-system",
+      "toNode": "content-plugins",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "color": "#8b5cf6",
+      "pv": {
+        "edgeType": "contains"
+      }
+    },
+    {
+      "id": "plugins-to-ui",
+      "fromNode": "plugin-system",
+      "toNode": "ui-plugins",
+      "fromSide": "right",
+      "toSide": "left",
+      "color": "#8b5cf6",
+      "pv": {
+        "edgeType": "contains"
+      }
+    },
+    {
+      "id": "gurx-to-markdown",
+      "fromNode": "gurx-realm",
+      "toNode": "markdown-cell",
+      "fromSide": "left",
+      "toSide": "right",
+      "color": "#8b5cf6",
+      "pv": {
+        "edgeType": "contains"
+      }
+    },
+    {
+      "id": "gurx-to-root-editor",
+      "fromNode": "gurx-realm",
+      "toNode": "root-editor-cell",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "color": "#8b5cf6",
+      "pv": {
+        "edgeType": "contains"
+      }
+    },
+    {
+      "id": "parser-flow",
+      "fromNode": "markdown-parser",
+      "toNode": "mdast-ast",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "color": "#3b82f6",
+      "pv": {
+        "edgeType": "data-flow"
+      }
+    },
+    {
+      "id": "mdast-to-import",
+      "fromNode": "mdast-ast",
+      "toNode": "import-visitors",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "color": "#3b82f6",
+      "pv": {
+        "edgeType": "data-flow"
+      }
+    },
+    {
+      "id": "import-to-lexical",
+      "fromNode": "import-visitors",
+      "toNode": "lexical-nodes",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "color": "#3b82f6",
+      "pv": {
+        "edgeType": "data-flow"
+      }
+    },
+    {
+      "id": "lexical-to-export",
+      "fromNode": "lexical-nodes",
+      "toNode": "export-visitors",
+      "fromSide": "top",
+      "toSide": "bottom",
+      "color": "#3b82f6",
+      "pv": {
+        "edgeType": "data-flow"
+      }
+    },
+    {
+      "id": "export-to-mdast",
+      "fromNode": "export-visitors",
+      "toNode": "mdast-ast",
+      "fromSide": "left",
+      "toSide": "right",
+      "color": "#3b82f6",
+      "pv": {
+        "edgeType": "data-flow"
+      }
+    },
+    {
+      "id": "lexical-dep",
+      "fromNode": "lexical-nodes",
+      "toNode": "lexical",
+      "fromSide": "right",
+      "toSide": "left",
+      "color": "#6b7280",
+      "pv": {
+        "edgeType": "depends-on"
+      }
+    },
+    {
+      "id": "codemirror-dep",
+      "fromNode": "rich-text-editor",
+      "toNode": "codemirror",
+      "fromSide": "right",
+      "toSide": "left",
+      "color": "#6b7280",
+      "pv": {
+        "edgeType": "depends-on"
+      }
+    },
+    {
+      "id": "core-registers",
+      "fromNode": "core-plugin",
+      "toNode": "plugin-system",
+      "fromSide": "top",
+      "toSide": "bottom",
+      "color": "#22c55e",
+      "pv": {
+        "edgeType": "registers"
+      }
+    },
+    {
+      "id": "content-registers",
+      "fromNode": "content-plugins",
+      "toNode": "plugin-system",
+      "fromSide": "top",
+      "toSide": "bottom",
+      "color": "#22c55e",
+      "pv": {
+        "edgeType": "registers"
+      }
+    },
+    {
+      "id": "ui-registers",
+      "fromNode": "ui-plugins",
+      "toNode": "plugin-system",
+      "fromSide": "top",
+      "toSide": "bottom",
+      "color": "#22c55e",
+      "pv": {
+        "edgeType": "registers"
+      }
+    }
+  ]
+}
