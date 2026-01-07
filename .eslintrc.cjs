@@ -24,7 +24,10 @@ module.exports = {
   overrides: [
     {
       files: ['./postcss.config.js', './vite.config.ts', './tailwind.config.ts'],
-      parserOptions: { project: null }
+      extends: ['eslint:recommended', 'plugin:@typescript-eslint/base'],
+      rules: {
+        '@typescript-eslint/no-misused-promises': 'off'
+      }
     }
   ],
   rules: {
