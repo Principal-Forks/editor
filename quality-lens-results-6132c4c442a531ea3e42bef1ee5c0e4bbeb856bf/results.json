@@ -1,0 +1,1653 @@
+{
+  "metadata": {
+    "timestamp": "2026-01-07T03:29:28.293Z",
+    "version": "1.0.0",
+    "totalPackages": 1,
+    "totalLenses": 4,
+    "git": {
+      "commit": "6132c4c442a531ea3e42bef1ee5c0e4bbeb856bf",
+      "branch": "main",
+      "repository": "Principal-Forks/editor"
+    }
+  },
+  "results": [
+    {
+      "package": {
+        "name": "@mdxeditor/editor",
+        "path": ""
+      },
+      "lens": {
+        "id": "typescript",
+        "command": "typecheck"
+      },
+      "execution": {
+        "success": true,
+        "exitCode": 0,
+        "duration": 5581,
+        "timestamp": 1767756540654
+      },
+      "issues": [],
+      "metrics": {
+        "filesAnalyzed": 169,
+        "totalIssues": 0,
+        "issuesBySeverity": {
+          "error": 0,
+          "warning": 0,
+          "info": 0,
+          "hint": 0
+        },
+        "executionTime": 0,
+        "custom": {
+          "filesWithErrors": 0,
+          "totalErrors": 0,
+          "totalWarnings": 0,
+          "totalSuggestions": 0,
+          "uniqueErrorCodes": 0,
+          "topErrors": []
+        }
+      },
+      "fileMetrics": [
+        {
+          "file": "src/FormatConstants.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/utils/fp.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/RealmWithPlugins.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/utils/voidEmitter.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/codeblock/CodeBlockNode.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/codeblock/CodeBlockVisitor.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/codeblock/MdastCodeVisitor.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/codeblock/index.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/core/SharedHistoryPlugin.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/utils/isPartOftheEditorUI.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/jsx/LexicalJsxVisitor.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/jsx/MdastMdxJsEsmVisitor.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/jsx/MdastMdxJsxElementVisitor.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/jsx/LexicalMdxExpressionNode.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/jsx/MdastMdxExpressionVisitor.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/jsx/LexicalMdxExpressionVisitor.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/core/ui/PopoverUtils.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/core/PropertyPopover.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/jsx-editors/GenericJsxEditor.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/jsx/index.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/jsx/LexicalJsxNode.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/core/NestedLexicalEditor.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/directives/DirectiveNode.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/directives/DirectiveVisitor.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/directives/MdastDirectiveVisitor.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/directives/index.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/importMarkdownToLexical.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/core/MdastHTMLNode.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/utils/mergeStyleAttributes.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/exportMarkdownFromLexical.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/core/GenericHTMLNode.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/core/LexicalGenericHTMLNodeVisitor.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/core/LexicalLinebreakVisitor.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/core/LexicalParagraphVisitor.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/core/LexicalRootVisitor.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/core/LexicalTextVisitor.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/core/MdastBreakVisitor.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/core/MdastFormattingVisitor.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/core/MdastHTMLVisitor.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/core/MdastParagraphVisitor.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/core/MdastRootVisitor.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/core/MdastTextVisitor.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/@types/micromark-util-symbol/index.d.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/mdastUtilHtmlComment.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/styles/lexicalTheme.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/defaultSvgIcons.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/core/index.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/utils/lexicalHelpers.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/MDXEditor.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/utils/detectMac.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/headings/LexicalHeadingVisitor.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/headings/MdastHeadingVisitor.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/headings/index.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/thematic-break/LexicalThematicBreakVisitor.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/thematic-break/MdastThematicBreakVisitor.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/thematic-break/index.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/lists/MdastListVisitor.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/lists/MdastListItemVisitor.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/lists/LexicalListVisitor.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/lists/LexicalListItemVisitor.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/lists/index.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/utils/uuid4.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/table/TableEditor.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/table/TableNode.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/table/LexicalTableVisitor.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/table/MdastTableVisitor.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/table/index.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/link/MdastLinkVisitor.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/link/LexicalLinkVisitor.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/link/AutoLinkPlugin.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/link/index.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/image/ImagePlaceholder.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/image/EditImageToolbar.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/core/ui/DownshiftAutoComplete.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/image/ImageDialog.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/image/ImageResizer.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/image/ImageEditor.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/image/ImageNode.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/image/LexicalImageVisitor.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/image/MdastImageVisitor.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/image/index.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/frontmatter/FrontmatterEditor.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/frontmatter/FrontmatterNode.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/frontmatter/LexicalFrontmatterVisitor.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/frontmatter/MdastFrontmatterVisitor.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/frontmatter/index.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/quote/MdastBlockQuoteVisitor.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/quote/LexicalQuoteVisitor.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/quote/index.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/maxlength/index.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/sandpack/useCodeMirrorRef.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/sandpack/SandpackEditor.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/sandpack/index.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/toolbar/primitives/TooltipWrap.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/toolbar/primitives/select.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/codemirror/CodeMirrorEditor.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/codemirror/index.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/directive-editors/AdmonitionDirectiveDescriptor.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/directive-editors/GenericDirectiveEditor.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/link-dialog/LinkDialog.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/link-dialog/index.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/toolbar/primitives/toolbar.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/toolbar/index.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/diff-source/SourceEditor.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/diff-source/DiffViewer.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/diff-source/DiffSourceWrapper.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/diff-source/index.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/markdown-shortcut/index.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/search/index.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/toolbar/components/BlockTypeSelect.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/toolbar/components/BoldItalicUnderlineToggles.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/toolbar/components/ChangeAdmonitionType.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/toolbar/components/ChangeCodeMirrorLanguage.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/toolbar/components/CodeToggle.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/toolbar/components/HighlightToggle.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/toolbar/components/CreateLink.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/toolbar/components/DiffSourceToggleWrapper.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/toolbar/components/InsertAdmonition.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/toolbar/components/InsertCodeBlock.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/toolbar/components/InsertFrontmatter.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/toolbar/components/InsertImage.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/toolbar/components/InsertSandpack.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/toolbar/components/InsertTable.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/toolbar/components/InsertThematicBreak.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/toolbar/components/ListsToggle.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/toolbar/components/ShowSandpackInfo.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/toolbar/components/UndoRedo.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/toolbar/components/KitchenSinkToolbar.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/toolbar/primitives/DialogButton.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/remote/index.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/utils/makeHslTransparent.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/index.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/@types/lexical/index.d.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/@types/unidiff/index.d.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/examples/_boilerplate.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/examples/basics.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/examples/bug-683.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/examples/bug-97.stories.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/examples/cm-merge.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/examples/colors.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/examples/controlled-mode.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/examples/diff-source.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/examples/directives.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/examples/error-handling.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/examples/get-selection-markdown.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/examples/html.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/examples/i18n.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/examples/images.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/examples/insert-markdown.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/examples/jsx.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/examples/link-dialog.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/examples/maxlength.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/examples/mermaid.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/examples/nested-jsx-elements.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/examples/nested-lists.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/examples/print.stories.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/examples/realm-plugin.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/examples/remote.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/examples/site-demo.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/examples/table-of-contents.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/examples/toolbar.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/examples/within-dialog.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/examples/assets/dataCode.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/plugins/core/MdastInlineCodeVisitor.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/test/core.test.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/test/impex.test.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/test/jsx.test.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/test/selection-markdown.test.tsx",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        },
+        {
+          "file": "src/test/setup.ts",
+          "score": 100,
+          "issueCount": 0,
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0
+        }
+      ],
+      "qualityContext": {}
+    },
+    {
+      "package": {
+        "name": "@mdxeditor/editor",
+        "path": ""
+      },
+      "lens": {
+        "id": "eslint",
+        "command": "lint"
+      },
+      "execution": {
+        "success": true,
+        "exitCode": 2,
+        "duration": 15200,
+        "timestamp": 1767756555854
+      },
+      "issues": [],
+      "metrics": {},
+      "qualityContext": {}
+    },
+    {
+      "package": {
+        "name": "@mdxeditor/editor",
+        "path": ""
+      },
+      "lens": {
+        "id": "vitest",
+        "command": "test"
+      },
+      "execution": {
+        "success": true,
+        "exitCode": 0,
+        "duration": 6246,
+        "timestamp": 1767756562100
+      },
+      "issues": [],
+      "metrics": {},
+      "qualityContext": {}
+    },
+    {
+      "package": {
+        "name": "@mdxeditor/editor",
+        "path": ""
+      },
+      "lens": {
+        "id": "vitest",
+        "command": "test:once"
+      },
+      "execution": {
+        "success": true,
+        "exitCode": 0,
+        "duration": 6192,
+        "timestamp": 1767756568292
+      },
+      "issues": [],
+      "metrics": {},
+      "qualityContext": {}
+    }
+  ],
+  "qualityMetrics": {
+    "packages": [
+      {
+        "name": "@mdxeditor/editor",
+        "path": "",
+        "hexagon": {
+          "tests": 100,
+          "deadCode": 0,
+          "formatting": 0,
+          "linting": 0,
+          "types": 100,
+          "documentation": 0
+        },
+        "lensesRan": [
+          "typescript",
+          "eslint",
+          "vitest"
+        ]
+      }
+    ]
+  }
+}
